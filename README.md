@@ -84,6 +84,8 @@ D:\AI\
 
 代码和运行时数据分离：`code/` 存放可版本控制的源码，`workspace/` 存放 API 密钥、模型权重、日志等运行时数据。`model_config.json` 不在 git 中，远程部署时需手动同步。
 
+完整字段、默认值、模式差异、代理设置和远端迁移说明见 [Workspace 配置总指南](docs/WORKSPACE_CONFIGURATION.md)。
+
 ## 快速开始
 
 ### 环境要求
@@ -187,8 +189,8 @@ python auto_reply.py --last                 # 使用上次保存的配置
 
 | 字段 | 说明 |
 |------|------|
-| `mode` | 运行模式：`ollama` / `remote` / `qoder` |
-| `model` | 模型名称 |
+| `mode` | 运行模式：`ollama` / `remote` / `qoder`（个人微信旧中继）/ `qodercli` / `codexcli` |
+| `model` | 远程 API 或 Ollama 模型名称；Codex CLI 使用 `codexcli_model` |
 | `api_base` | 远程 API 地址 |
 | `api_key` | API 密钥 |
 | `remote_provider` | 提供商名称（日志显示用） |
