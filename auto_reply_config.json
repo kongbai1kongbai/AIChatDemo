@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+
+  "dm_enabled": true,
+  "dm_system_prompt": "",
+  "dm_blacklist": [],
+  "dm_whitelist_mode": false,
+  "dm_whitelist": [],
+
+  "group_enabled": true,
+  "group_system_prompt": "",
+  "group_blacklist": [],
+  "group_whitelist_mode": false,
+  "group_whitelist": [],
+  "group_trigger_words": [],
+  "group_mention_names": ["@机器人", "@bot", "@助手"],
+
+  "reply_delay": 2,
+  "log_file": "auto_reply.log"
+}

@@ -1,0 +1,36 @@
+{
+  "mode": "remote",
+  "model": "gemini-3.5-flash",
+  "api_base": "https://z.apiyihe.org/v1",
+  "api_key": "sk-your-api-key-here",
+  "remote_provider": "Gemini Flash (apiyihe)",
+
+  "voice_asr_provider": "api",
+  "voice_asr_model": "gpt-4o-transcribe",
+  "voice_asr_api_base": "",
+  "voice_asr_api_key": "",
+  "voice_asr_language": "zh",
+  "voice_asr_timeout": 90,
+  "voice_asr_fallback_local": true,
+
+  "remote_max_tokens": 8192,
+  "ollama_max_tokens": 8192,
+
+  "qodercli_model": "Qwen3.7-Max",
+  "qodercli_max_tokens": 8192,
+  "qodercli_permission_mode": "bypass",
+
+  "codexcli_path": "D:\\AI\\workspace\\codex-cli.cmd",
+  "codexcli_model": "gpt-5.6-sol",
+  "codexcli_reasoning_effort": "none",
+  "codexcli_sandbox": "workspace-write",
+  "codexcli_approval_policy": "never",
+  "codexcli_permission_mode": "bypass",
+  "codexcli_dangerously_bypass": true,
+  "codexcli_timeout": 900,
+  "codexcli_rule_timeout": 120,
+
+  "codexcli_proxy": "",
+  "codexcli_no_proxy": "localhost,127.0.0.1,::1",
+  "codexcli_use_windows_proxy": true
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "weixin": {
+      "command": "npx",
+      "args": ["-y", "weixin-mcp"],
+      "env": {
+        "WEIXIN_MCP_DIR": "D:\\AI\\weixin-mcp-data"
+      }
+    }
+  }
+}

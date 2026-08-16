@@ -1,0 +1,9 @@
+{
+  "corp_id": "YOUR_CORP_ID",
+  "corp_secret": "YOUR_APP_SECRET",
+  "agent_id": 1000002,
+  "token": "YOUR_CALLBACK_TOKEN",
+  "encoding_aes_key": "YOUR_43_CHAR_ENCODING_AES_KEY",
+  "host": "0.0.0.0",
+  "port": 8080
+}

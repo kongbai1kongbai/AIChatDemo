@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Sensitive config (real API keys)
+model_config.json
+
+# Runtime data (now in workspace/ but guard against accidental creation)
+auto_reply.log
+*.log
+contacts.json
+.qoder_relay_request.json
+.qoder_processed_ids.json
+
+# Model archives
+whisper-*.zip
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Local Git worktrees
+.worktrees/
+
+# WeChat installer and tools (too large for GitHub)
+WeChatApp/
+
+# WeCom real config (contains secrets - in workspace/)
+wecom_config.json
+wecom_bot_config.json
+
+# wxautoz runtime logs
+wxautoz_logs/
